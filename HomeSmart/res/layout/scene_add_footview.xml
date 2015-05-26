@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/space_30"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/saveButton"
+        style="@style/btn_common_oneline"
+        android:background="@drawable/btn_green_big"
+        android:text="@string/save" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        style="@style/btn_common_oneline"
+        android:layout_marginTop="@dimen/fill_margin"
+        android:background="@drawable/btn_green_big"
+        android:text="@string/cancel"
+        android:visibility="visible" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" >
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_marginTop="10dip"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/home_addimg" />
+
+    <LinearLayout
+        android:id="@+id/ll_step"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_image"
+        android:layout_margin="@dimen/fill_margin"
+        android:orientation="horizontal"
+        android:padding="@dimen/fill_padding" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name" />
+
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/fill_margin_top"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/fill_margin_bottom"
+            android:layout_marginTop="@dimen/fill_margin_top"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/saveButton"
+                style="@style/btn_common_oneline"
+                android:background="@drawable/btn_green_big"
+                android:text="@string/nextstep" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                style="@style/btn_common_oneline"
+                android:background="@drawable/btn_green_big"
+                android:text="@string/cancel"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

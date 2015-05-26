@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shap_for_progress"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_metion_msg1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:paddingLeft="@dimen/common_row_margin"
+            android:paddingRight="@dimen/common_row_margin"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16" />
+
+        <ScrollView style="@style/scrollview_fill" >
+
+            <TextView
+                android:id="@+id/tv_metion_msg2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="@dimen/dp_two_zero"
+                android:paddingLeft="@dimen/common_row_margin"
+                android:paddingRight="@dimen/common_row_margin"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+               android:padding="@dimen/dp_one_zero"
+                android:text="名称："
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <EditText
+                android:id="@+id/tv_name_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="@dimen/dp_one_zero"
+                android:paddingRight="@dimen/dp_one_zero"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:padding="@dimen/dp_one_zero"
+                android:text="间隔时间："
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+
+            <EditText
+                android:id="@+id/tv_time_value"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:digits="1234567890"
+                android:gravity="center"
+                android:numeric="integer"
+                android:inputType="phone"
+                android:paddingLeft="@dimen/dp_one_zero"
+                android:paddingRight="@dimen/dp_one_zero"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_16" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/sure_btn"
+                style="@style/dialogbtn"
+                android:background="@drawable/btn_green_big"
+                android:text="@string/confirm" />
+
+            <Button
+                android:id="@+id/cancel_btn"
+                style="@style/dialogbtn"
+                android:background="@drawable/btn_green_big"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

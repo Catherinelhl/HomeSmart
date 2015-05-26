@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智能家居</string>
+    
+    <integer name="app_version_code">1</integer>
+    <string name="app_version">1.0</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="control">遥控器</string>
+    <string name="scene">场景</string>
+    <string name="swith">开关</string>
+    <string name="setting">设置</string>
+    <string name="help">帮助</string>
+    <string name="share">分享</string>
+    <string name="aboutus">关于我们</string>
+    <string name="addcontrol">添加新遥控器</string>
+    <string name="updatecontrolkey">编辑当前遥控器按键</string>
+    <string name="updatecontrolproperty">更改当前遥控器属性</string>
+    <string name="delcontrol">删除当前遥控器</string>
+    <string name="update">编辑</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="custom">自定义</string>
+    <string name="input_wifi_password">请输入wifi密码</string>
+    <string name="no_config">无设备，立即演示</string>
+    <string name="why_config_err">连接不上？</string>
+    <string name="config">配置</string>
+    <string name="config_hint">"输入设备网络WIFI密码
+即可快速配置"</string>
+    <string name="share_text">"我正在使用智能家居设备，非常好用，也邀请你来试试，改变生活，从我开始...... "</string>
+    <string name="confirm">确认</string>
+    <string name="save">保存</string>
+    <string name="submit">提交</string>
+    <string name="nextstep">下一步</string>
+    <string name="name">名称：</string>
+    <string name="time">时间：</string>
+    <string name="repeat">重复：</string>
+    <string name="takephoto">拍照</string>
+    <string name="selectfromphone">从手机相册选择</string>
+    <string name="imagelibrary">图库</string>
+    <string name="btn_vibator">按键震动</string>
+    <string name="gesturepass">手势密码</string>
+    <string name="pushnotifacation">推送通知</string>
+    <string name="backupdata">备份数据</string>
+    <string name="recoverdata">恢复数据</string>
+    <string name="checkupdata">检测更新</string>
+    <string name="safeexit">安全退出</string>
+    <string name="try_again">重试</string>
+    <string name="goon">继续</string>
+    <string name="lockpattern_recording_incorrect_too_short">"至少连接3个点，请重试"</string>
+    <string name="lockpattern_error">"手势密码不对"</string>
+
+    <!-- Accessibility description sent when user starts drawing a lock pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_start">Pattern started</string>
+    <!-- Accessibility description sent when the pattern times out and is cleared. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
+    <!-- Accessibility description sent when user adds a cell to the pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_cell_added">Cell added</string>
+    <!-- Accessibility description sent when user completes drawing a pattern. [CHAR LIMIT=NONE] -->
+    <string name="lockscreen_access_pattern_detected">Pattern completed</string>
+    <string name="userintro">使用说明</string>
+    <string name="commonquestion">常见问题</string>
+    <string name="feedbackinfo">反馈信息</string>
+    <string name="howconfigdevice">1.如何配置设备</string>
+    <string name="howswitchdevice">2.如何切换设备</string>
+    <string name="howaddcontrol">3.如何添加遥控器</string>
+    <string name="configdevicequs">1.配置设备问题</string>
+    <string name="switchdevicequs">2.切换设备问题</string>
+    <string name="addcontrolqus">3.添加遥控器问题</string>
+    <string name="helpinfo">帮助信息</string>
+    <string name="feedback_question">问题：</string>
+    <string name="feedback_content">描述：</string>
+    <string name="add">添加</string>
+    <string name="picture">图标</string>
+    <string name="switch_hip_message">请对准设备按您要学习的红外遥控器按键进行学习</string>
+     <string name="login_with_qq">用QQ登录</string>
+    <string name="login_with_qzone">用QQ空间登录</string>
+    
+    <string name="login_with_sina_weibo">用新浪微博登录</string>
+    <string name="userid_found">用户信息已存在，正在跳转登录操作…</string>
+    <string name="auth_cancel">授权操作已取消</string>
+	<string name="auth_error">授权操作遇到错误</string>
+	<string name="logining">使用%s帐号登录中…</string>
+	<string name="auth_complete">授权成功，正在跳转登录操作…</string>
+	<string name="muti_title">添加一系列按钮命令组成一个小情景，从此以后只需要点击即可启动</string>
+	
+	
+</resources>

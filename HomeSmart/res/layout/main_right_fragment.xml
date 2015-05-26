@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/tools_box_bg"
+    android:scrollbars="none" >
+
+    <LinearLayout
+        android:id="@+id/llRoot"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dip" >
+
+        <ImageView
+            android:id="@+id/right_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_marginBottom="20dip"
+            android:background="@drawable/home_tipimage"
+             />
+
+        <include
+            android:id="@+id/addcontrolLayout"
+            layout="@layout/toolbox_item_addcontrol" />
+
+        <include
+            android:id="@+id/updatekeyLayout"
+            layout="@layout/toolbox_item_updatecontrolkey" />
+
+        <include
+            android:id="@+id/updatepropertyLayout"
+            layout="@layout/toolbox_item_updateconproperty" />
+
+        <include
+            android:id="@+id/delcontrolLayout"
+            layout="@layout/toolbox_item_delcontrol" />
+    </LinearLayout>
+
+</ScrollView>

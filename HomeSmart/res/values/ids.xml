@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="btn_voice_add" type="id"/>
+    <item name="btn_voice_reduce" type="id"/>
+    <item name="btn_sound_add" type="id"/>
+    <item name="btn_sound_reduce" type="id"/>
+    <item name="btn_mute" type="id"/>
+    <item name="btn_return" type="id"/>
+    <item name="btn_tv_close" type="id"/>
+    <item name="btn_num_open" type="id"/>
+    <item name="btn_power" type="id"/>
+    <item name="btn_tv_menu" type="id"/>
+    <item name="btn_tv_exit" type="id"/>
+    <item name="btn_tv_sound" type="id"/>
+    <item name="btn_tv" type="id"/>
+    <item name="btn_custom_more" type="id"/>
+    <item name="btn_tv_ok" type="id"/>
+    <item name="btn_tv_up" type="id"/>
+    <item name="btn_tv_down" type="id"/>
+    <item name="btn_tv_left" type="id"/>
+    <item name="btn_tv_right" type="id"/>
+    <item name="num_layout" type="id"/>
+    <item name="custom_more_layout" type="id"/>
+    <item name="progress_dialg" type="id"/>
+    <item name="main_layout" type="id"/>
+    <item name="btn_num_0" type="id"/>
+    <item name="btn_num_1" type="id"/>
+    <item name="btn_num_2" type="id"/>
+    <item name="btn_num_3" type="id"/>
+    <item name="btn_num_4" type="id"/>
+    <item name="btn_num_5" type="id"/>
+    <item name="btn_num_6" type="id"/>
+    <item name="btn_num_7" type="id"/>
+    <item name="btn_num_8" type="id"/>
+    <item name="btn_num_9" type="id"/>
+    <item name="btn_num_asterisk" type="id"/>
+    <item name="btn_num_pound" type="id"/>
+    <item name="btn_num_repeat" type="id"/>
+    <item name="btn_num_nosound" type="id"/>
+    <item name="btn_custom_g1" type="id"/>
+    <item name="btn_custom_g2" type="id"/>
+    <item name="btn_custom_g3" type="id"/>
+    <item name="btn_custom_g4" type="id"/>
+    <item name="btn_custom_g5" type="id"/>
+    <item name="btn_custom_g6" type="id"/>
+    <item name="btn_custom_g7" type="id"/>
+    <item name="btn_custom_g8" type="id"/>
+    <item name="btn_custom_g9" type="id"/>
+    <item name="btn_custom_g10" type="id"/>
+    <item name="btn_custom_g11" type="id"/>
+    <item name="btn_custom_g12" type="id"/>
+    <item name="btn_custom_close" type="id"/>
+    <item name="view_config" type="id"/>
+    <item name="ssid_value" type="id"/>
+    <item name="pass" type="id"/>
+    
+    <item name="no_text" type="id"/>
+    <item name="err_text" type="id"/>
+    <item name="confing_anim_view" type="id"/>
+    <item name="submit" type="id"/>
+
+    <item name="config_view" type="id"/>
+    
+    
+</resources>

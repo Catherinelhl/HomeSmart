@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/parent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/fristLayout"
+                style="@style/more_layout" >
+
+                <TableRow
+                    android:id="@+id/frist_tab"
+                    style="@style/more_tablerow" >
+
+                    <ImageView
+                        android:id="@+id/share_img"
+                        style="@style/more_icon"
+                        android:src="@drawable/ic_launcher" />
+
+                    <TextView
+                        style="@style/more_text"
+                        android:text="@string/share_text" />
+                </TableRow>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@color/listviewdriver" />
+
+            <LinearLayout
+                android:id="@+id/secondLayout"
+                style="@style/more_layout" >
+
+                <TableRow style="@style/more_tablerow" >
+
+                    <TextView
+                        style="@style/more_text"
+                        android:text="微信好友 " />
+                </TableRow>
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:src="@color/listviewdriver" />
+
+            <LinearLayout
+                android:id="@+id/thirdLayout"
+                style="@style/more_layout" >
+
+                <TableRow style="@style/more_tablerow" >
+
+                    <TextView
+                        style="@style/more_text"
+                        android:text="微信朋友圈" />
+                </TableRow>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/listviewdriver" />
+
+        <LinearLayout
+            android:id="@+id/forthLayout"
+            style="@style/more_layout"
+            android:visibility="gone" >
+
+            <TableRow style="@style/more_tablerow" >
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="新浪微博" />
+            </TableRow>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/listviewdriver"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/fiveLayout"
+            style="@style/more_layout" >
+
+            <TableRow
+                android:id="@+id/five_tab"
+                style="@style/more_tablerow" >
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="QQ好友" />
+            </TableRow>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/listviewdriver" >
+        </ImageView>
+
+        <LinearLayout
+            android:id="@+id/sixLayout"
+            style="@style/more_layout" >
+
+            <TableRow style="@style/more_tablerow" >
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="QQ空间" />
+            </TableRow>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/listviewdriver" />
+
+        <LinearLayout
+            android:id="@+id/sevenLayout"
+            style="@style/more_layout" >
+
+            <TableRow style="@style/more_tablerow" >
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="腾讯微博" />
+            </TableRow>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:src="@color/listviewdriver" >
+        </ImageView>
+    </LinearLayout>
+
+</ScrollView>

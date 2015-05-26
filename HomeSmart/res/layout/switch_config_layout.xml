@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:roundProgress="http://schemas.android.com/apk/res/com.home.homesmart"
+    xmlns:android_custom="http://schemas.android.com/apk/res/com.home.homesmart"
+    android:id="@id/view_config"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/circle_fl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40.0dip" >
+
+        <com.home.widget.CircleProgress
+            android:id="@+id/circleprogress"
+            android:layout_width="100dip"
+            android:layout_height="100dip"
+            android:layout_alignLeft="@+id/roundProgressBar4"
+            android:layout_alignTop="@+id/roundProgressBar2"
+            android_custom:roundColor="#D1D1D1"
+            android_custom:roundProgressColor="@android:color/black"
+            android_custom:roundWidth="10dip"
+            android_custom:textColor="#9A32CD"
+            android_custom:textIsDisplayable="true"
+            android_custom:textSize="18sp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/circle_fl"
+        android:layout_margin="40.0dip" >
+        
+         <TextView
+            style="@style/custom_button_style"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/switch_hip_message"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+        
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40.0dip" >
+
+        <Button
+            android:id="@id/config_view"
+            style="@style/custom_button_style"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/config"
+            android:background="@drawable/btn_green_big"
+            android:textColor="@color/black"
+            android:textSize="16.0sp" />
+    </FrameLayout>
+
+</RelativeLayout>

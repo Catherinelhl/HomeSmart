@@ -1,0 +1,128 @@
+# view AndroidManifest.xml #generated:86
+-keep class cn.sharesdk.framework.ShareSDKUIShell { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:44
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:27
+# view res/layout/abs__screen_simple.xml #generated:32
+# view res/layout/abs__screen_simple_overlay_action_mode.xml #generated:27
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:44
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:25
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineFrameLayout { <init>(...); }
+
+# view large\res/layout-large/abs__action_mode_close_item.xml #generated:17
+# view res/layout/abs__action_mode_close_item.xml #generated:17
+-keep class com.actionbarsherlock.internal.nineoldandroids.widget.NineLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuItemView { <init>(...); }
+
+# view res/layout/abs__action_menu_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ActionMenuView { <init>(...); }
+
+# view res/layout/abs__popup_menu_item_layout.xml #generated:17
+-keep class com.actionbarsherlock.internal.view.menu.ListMenuItemView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:27
+# view res/layout/abs__screen_action_bar.xml #generated:51
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:30
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:53
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:27
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:28
+-keep class com.actionbarsherlock.internal.widget.ActionBarContainer { <init>(...); }
+
+# view res/layout/abs__action_mode_bar.xml #generated:19
+# view res/layout/abs__screen_action_bar.xml #generated:37
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:41
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:37
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:38
+-keep class com.actionbarsherlock.internal.widget.ActionBarContextView { <init>(...); }
+
+# view res/layout/abs__screen_action_bar.xml #generated:32
+# view res/layout/abs__screen_action_bar_overlay.xml #generated:36
+# view xlarge\res/layout-xlarge/abs__screen_action_bar.xml #generated:32
+# view xlarge\res/layout-xlarge/abs__screen_action_bar_overlay.xml #generated:33
+-keep class com.actionbarsherlock.internal.widget.ActionBarView { <init>(...); }
+
+# view res/layout/abs__action_bar_home.xml #generated:17
+-keep class com.actionbarsherlock.internal.widget.ActionBarView$HomeView { <init>(...); }
+
+# view res/layout/abs__action_menu_item_layout.xml #generated:40
+-keep class com.actionbarsherlock.internal.widget.CapitalizingButton { <init>(...); }
+
+# view res/layout/abs__activity_chooser_view.xml #generated:19
+-keep class com.actionbarsherlock.internal.widget.IcsLinearLayout { <init>(...); }
+
+# view res/layout/abs__action_bar_tab.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.ScrollingTabContainerView$TabView { <init>(...); }
+
+# view res/layout/abs__action_bar_tab_bar_view.xml #generated:3
+-keep class com.actionbarsherlock.internal.widget.TabsLinearLayout { <init>(...); }
+
+# view res/layout/abs__search_view.xml #generated:84
+-keep class com.actionbarsherlock.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# view AndroidManifest.xml #generated:45
+-keep class com.home.application.BaseDroidApp { <init>(...); }
+
+# view AndroidManifest.xml #generated:66
+-keep class com.home.homesmart.activity.ConfigActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.home.homesmart.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.home.homesmart.activity.LockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.home.homesmart.activity.LockSetupActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.home.homesmart.activity.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class com.home.homesmart.activity.StartActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:7
+# view res/layout/config_layout.xml #generated:6
+# view res/layout/rm_tv_show_layout.xml #generated:7
+-keep class com.home.view.CommonTitleView { <init>(...); }
+
+# view res/layout/rm_tv_show_layout.xml #generated:14
+-keep class com.home.view.DragEditViewGroup { <init>(...); }
+
+# view res/layout/activity_bottommenu.xml #generated:6
+-keep class com.home.view.HomeBottomLayout { <init>(...); }
+
+# view res/layout/config_layout.xml #generated:23
+# view res/layout/switch_config_layout.xml #generated:18
+-keep class com.home.widget.CircleProgress { <init>(...); }
+
+# view res/layout/activity_lock.xml #generated:15
+# view res/layout/activity_lock_setup.xml #generated:16
+-keep class com.home.widget.LockPatternView { <init>(...); }
+
+# view res/layout/main_left_fragment.xml #generated:14
+-keep class com.home.widget.RoundedImageView { <init>(...); }
+
+# view res/layout/home_setting.xml #generated:41
+# view res/layout/home_setting.xml #generated:69
+# view res/layout/home_setting.xml #generated:95
+# view res/layout/switch_item.xml #generated:29
+-keep class com.home.widget.SwitchView { <init>(...); }
+
+# view res/layout/slidingmenumain.xml #generated:2
+-keep class com.jeremyfeinstein.slidingmenu.lib.SlidingMenu { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class wxapi.WXEntryActivity { <init>(...); }
+
+# onClick res/layout/activity_lock_setup.xml #generated:26
+# onClick res/layout/activity_lock_setup.xml #generated:34
+-keepclassmembers class * { *** onClick(...); }
+
+# onClick res/layout/third_party_login_page.xml #generated:32
+-keepclassmembers class * { *** qqLogin(...); }
+
+# onClick res/layout/third_party_login_page.xml #generated:17
+-keepclassmembers class * { *** sinaLogin(...); }
+

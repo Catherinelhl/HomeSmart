@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_margin_top" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/common_margin"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_for_white"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/crcd_consume_setup_ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:layout_marginRight="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/textview_common"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/btn_vibator" />
+
+                    <com.home.widget.SwitchView
+                        android:id="@+id/slipswitch1"
+                        android:layout_width="@dimen/slipwidth"
+                        android:layout_height="@dimen/slipheight" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:src="@color/gray" />
+
+                <LinearLayout
+                    android:id="@+id/crcd_billservice_setup_ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/common_margin"
+                    android:layout_marginRight="@dimen/common_margin"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/textview_common"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/gesturepass" />
+
+                    <com.home.widget.SwitchView
+                        android:id="@+id/slipswitch2"
+                        android:layout_width="@dimen/slipwidth"
+                        android:layout_height="@dimen/slipheight" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/common_margin"
+                    android:src="@color/gray" />
+
+                <LinearLayout
+                    android:id="@+id/mycrcd_zhangdan_ll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/common_margin"
+                    android:gravity="center" >
+
+                    <TextView
+                        style="@style/textview_common"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/pushnotifacation" />
+
+                    <com.home.widget.SwitchView
+                        android:id="@+id/slipswitch3"
+                        android:layout_width="@dimen/slipwidth"
+                        android:layout_height="@dimen/slipheight" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_backup"
+                style="@style/StyleButtonItem"
+                android:layout_marginTop="10dip"
+                android:text="@string/backupdata" />
+
+            <Button
+                android:id="@+id/btn_recover"
+                style="@style/StyleButtonItem"
+                android:layout_marginTop="10dip"
+                android:text="@string/recoverdata" />
+
+            <Button
+                android:id="@+id/btn_update"
+                style="@style/StyleButtonItem"
+                android:layout_marginTop="10dip"
+                android:text="@string/checkupdata" />
+
+            <Button
+                android:id="@+id/btn_exit"
+                style="@style/StyleButtonItem"
+                android:layout_marginTop="10dip"
+                android:text="@string/safeexit" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

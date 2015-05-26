@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_for_foot_choose"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/fill_padding" >
+
+    <LinearLayout style="@style/fill_fill_weight1" >
+
+        <Button
+            android:id="@+id/imagelib"
+            style="@style/popupwindow_btn_normal"
+            android:text="@string/imagelibrary" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fill_fill_weight1" >
+
+        <Button
+            android:id="@+id/takephoto"
+            style="@style/popupwindow_btn_normal"
+            android:text="@string/takephoto" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fill_fill_weight1" >
+
+        <Button
+            android:id="@+id/selfromphone"
+            style="@style/popupwindow_btn_normal"
+            android:text="@string/selectfromphone" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/fill_fill_weight1" >
+
+        <Button
+            android:id="@+id/canclebtn"
+            style="@style/popupwindow_btn_normal"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

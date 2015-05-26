@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/order_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fill_margin"
+        android:padding="@dimen/fill_padding"
+        android:text="*选择一条命令到场景"
+        android:visibility="visible" />
+
+    <GridView
+        android:id="@+id/order_gv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:horizontalSpacing="5dip"
+        android:numColumns="4"
+        android:verticalSpacing="5dip"
+        android:visibility="visible" >
+    </GridView>
+
+</LinearLayout>

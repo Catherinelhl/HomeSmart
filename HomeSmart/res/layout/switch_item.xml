@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/row_icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp" />
+
+    <RelativeLayout
+        android:id="@+id/mycrcd_zhangdan_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/common_margin"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/row_title"
+            style="@style/textview_common"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/black" />
+
+        <com.home.widget.SwitchView
+            android:id="@+id/switchView"
+            android:layout_width="@dimen/slipwidth"
+            android:layout_height="@dimen/slipheight"
+            android:layout_alignParentRight="true" />
+    </RelativeLayout>
+
+</LinearLayout>
